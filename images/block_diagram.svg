@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" font-family="Arial, Helvetica, sans-serif">
+<rect width="880" height="420" rx="14" fill="#0f172a"/>
+<text x="440" y="32" fill="#e2e8f0" font-size="18" font-weight="bold" text-anchor="middle">Cinctech wearable - functional overview</text>
+<rect x="330" y="170" width="220" height="80" rx="10" fill="#1d4ed8" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="440.0" y="206.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">Main MCU</text>
+<text x="440.0" y="226.0" fill="#cbd5e1" font-size="12" text-anchor="middle">Wi-Fi / BLE</text>
+<rect x="40" y="60" width="220" height="70" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="150.0" y="91.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">GNSS receiver</text>
+<text x="150.0" y="111.0" fill="#cbd5e1" font-size="12" text-anchor="middle">multi-constellation + antenna</text>
+<rect x="40" y="170" width="220" height="70" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="150.0" y="201.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">Motion sensing</text>
+<text x="150.0" y="221.0" fill="#cbd5e1" font-size="12" text-anchor="middle">9-axis IMU</text>
+<rect x="40" y="280" width="220" height="70" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="150.0" y="311.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">Physiological sensing</text>
+<text x="150.0" y="331.0" fill="#cbd5e1" font-size="12" text-anchor="middle">low-noise analog front end</text>
+<rect x="620" y="60" width="220" height="70" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="730.0" y="91.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">On-device storage</text>
+<text x="730.0" y="111.0" fill="#cbd5e1" font-size="12" text-anchor="middle">session logging</text>
+<rect x="620" y="170" width="220" height="70" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="730.0" y="201.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">User interface</text>
+<text x="730.0" y="221.0" fill="#cbd5e1" font-size="12" text-anchor="middle">buttons + status LEDs</text>
+<rect x="620" y="280" width="220" height="70" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="730.0" y="311.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">Power management</text>
+<text x="730.0" y="331.0" fill="#cbd5e1" font-size="12" text-anchor="middle">Li-ion, protection, 3.3 V rail</text>
+<rect x="330" y="320" width="220" height="60" rx="10" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+<text x="440.0" y="346.0" fill="#f8fafc" font-size="15" font-weight="bold" text-anchor="middle">USB-C</text>
+<text x="440.0" y="366.0" fill="#cbd5e1" font-size="12" text-anchor="middle">charging + programming</text>
+<line x1="260" y1="95.0" x2="330" y2="210.0" stroke="#94a3b8" stroke-width="2"/>
+<line x1="260" y1="205.0" x2="330" y2="210.0" stroke="#94a3b8" stroke-width="2"/>
+<line x1="260" y1="315.0" x2="330" y2="210.0" stroke="#94a3b8" stroke-width="2"/>
+<line x1="550" y1="210.0" x2="620" y2="95.0" stroke="#94a3b8" stroke-width="2"/>
+<line x1="550" y1="210.0" x2="620" y2="205.0" stroke="#94a3b8" stroke-width="2"/>
+<line x1="550" y1="210.0" x2="620" y2="315.0" stroke="#94a3b8" stroke-width="2"/>
+<line x1="440" y1="250" x2="440" y2="320" stroke="#94a3b8" stroke-width="2"/>
+<line x1="550" y1="350" x2="620" y2="315" stroke="#94a3b8" stroke-width="2"/>
+<text x="440" y="408" fill="#64748b" font-size="11" text-anchor="middle">© 2026 Cinctech. All rights reserved. Simplified for portfolio viewing.</text>
+</svg>
