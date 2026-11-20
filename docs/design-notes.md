@@ -4,7 +4,7 @@ These notes describe **how** the hardware was engineered, without the design dat
 
 ## 1. Architecture
 - One Wi-Fi/BLE microcontroller module at the centre; sensors on dedicated buses (I²C, SPI, UART) so they don't compete for bandwidth.
-- Sensors chosen for **sports-grade motion tracking**: position/speed from satellites, high-rate motion data from an inertial sensor, and a low-noise physiological channel.
+- Sensors chosen for **sports-grade motion tracking**: position/speed from satellites, high-rate motion data from an inertial sensor, and a low-noise ECG channel.
 - Local logging during a session, with wireless upload only when the user asks for it (saves battery).
 
 ## 2. PCB stack-up and layout
@@ -28,7 +28,7 @@ These notes describe **how** the hardware was engineered, without the design dat
 1. **Datasheet review** of every IC: reference circuits, recommended component values, boot/strapping pins, unused-pin rules. This caught and fixed **four errors** before layout (a wrong capacitor value, two resistor values, a wrong connector type, and a pin that could not wake the MCU from deep sleep).
 2. **Electrical rules check** (ERC) plus scripted **netlist checks** on about 50 critical pin connections.
 3. **Footprint ↔ symbol pad check** for every part.
-4. **Design rules check** (DRC) with schematic parity: final result **0 errors, 0 unconnected, 0 mismatches**.
+4. **Design rules check** (DRC) with schematic parity, run at every layout iteration.
 
 ## 6. Manufacturing and cost
 - Complete fabrication and assembly outputs generated from the design (fab-ready Gerbers, drill, pick-and-place, BOM with manufacturer part numbers, assembly drawings, 3D model).

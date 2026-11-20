@@ -10,14 +10,14 @@
 
 | | |
 |---|---|
-| **Board** | 4-layer PCB, **62 × 46 mm** (slightly larger than a matchbox), components on both sides |
-| **Complexity** | **120+ components**, ~50 unique parts, fine-pitch ICs at 0.5 mm pitch and 0402 passives |
-| **Sensing** | Multi-constellation **GNSS**, **9-axis IMU**, low-noise **physiological sensing** front end |
+| **Board** | 4-layer PCB, **66 × 50 mm** (about the size of a matchbox), components on both sides |
+| **Complexity** | **135+ components**, fine-pitch ICs at 0.5 mm pitch and 0402 passives |
+| **Sensing** | Multi-constellation **GNSS**, **9-axis IMU**, low-noise **ECG** front end |
 | **Connectivity** | **Wi-Fi / BLE** microcontroller, USB-C (charging + programming) |
-| **Power** | Single-cell **Li-ion** with charging, battery protection, USB/battery load-sharing, **buck-boost 3.3 V** rail, firmware-controlled soft power switch |
+| **Power** | Single-cell **Li-ion** with charging, battery protection, USB/battery load-sharing, **buck-boost 3.3 V** rail, firmware-controlled soft power switch; estimated **~9–10 h** battery life |
 | **Storage & UI** | On-device session logging, buttons, battery/charge status LEDs |
-| **Verification** | **0 ERC errors, 0 DRC errors, 0 unconnected nets, 0 schematic/PCB mismatches** |
-| **Status** | Mark 2 prototype in fabrication; Mark 3 (cost-optimised) in planning |
+| **Verification** | **0 ERC errors**; every pin checked against its manufacturer datasheet |
+| **Status** | Design complete, prototype **not yet fabricated**; a cost-optimised revision is planned |
 
 ## Board previews
 
@@ -25,7 +25,7 @@
 |---|---|
 | ![Top preview](images/board_top_preview.jpg) | ![Bottom preview](images/board_bottom_preview.jpg) |
 
-*Renders are intentionally low-resolution and watermarked.*
+*Renders are intentionally low-resolution and watermarked, and show an earlier revision of the board.*
 
 ## My role
 
